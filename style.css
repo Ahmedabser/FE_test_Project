@@ -1,0 +1,91 @@
+body{
+    
+    margin: 0px;
+    background-color: #f7f0e3;
+}
+#contener{
+    position: relative;
+    margin: auto;
+    width: 1200px;
+    /*background-color: #f0f0f0;*/
+    padding: 20px ;
+}
+#head{ 
+    color: rgb(5, 117, 80);
+}
+header{
+    padding-top: 15px;
+    display:flex;
+    justify-content: space-between;  
+}
+nav{
+    display:inline ;
+}
+.ul1{
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+    
+}
+.list{
+    list-style: none;
+}
+
+div {
+    display: block;
+   
+}
+
+#title{
+   margin: 0 auto;
+   display: flex;
+   justify-content:center;
+   align-items: center;
+   padding-top:48px;
+   font-size: 25px;
+}
+#title2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+#div-shop-ptn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#shop-ptn{
+    height: 45px;
+    width: 148px;
+    background-color: #084308;;
+    color: white;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.font-p{
+    font-style: italic;
+}
+
+#imgs{
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#img-tomato{
+    margin-top: 80px;
+    display: inline;
+}
+
+#parag{
+    margin-bottom: 65px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 300px;
+    justify-content: space-between;
+}
